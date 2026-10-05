@@ -1,0 +1,10 @@
+{
+  "filas_entrenamiento": 170169,
+  "terminos": 9337,
+  "dif_equivalencia": 5.329070518200751e-15,
+  "sha256_modelo": "62324d791ead4f56585796d7659df4b8ddc2ba1909be4267bdf312e5cb6360f0",
+  "python": "3.13.9",
+  "scikit_learn": "1.9.0",
+  "numpy": "2.3.5",
+  "pandas": "2.3.3"
+}

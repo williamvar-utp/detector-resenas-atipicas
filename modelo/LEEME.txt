@@ -1,0 +1,2 @@
+Esta carpeta se llena al ejecutar:  python entrenar_y_exportar.py --train salidas/train.csv.gz --oof salidas/parte6_oof.csv
+Genera modelo_nivel1.json, calibracion.json, mapa_stems.json e info.json. Subir los cuatro a GitHub junto con el resto del repositorio.

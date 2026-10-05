@@ -1,0 +1,5 @@
+# Solo para reentrenar y exportar el modelo en la maquina del equipo (la app desplegada NO los necesita)
+pandas
+numpy
+scikit-learn
+nltk
