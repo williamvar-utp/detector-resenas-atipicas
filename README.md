@@ -7,7 +7,7 @@ cada clase y descomposición exacta del puntaje).
 
 ## URL pública
 
-**https://REEMPLAZAR-POR-LA-URL-DE-LA-APP.streamlit.app**  ← *pegar aquí la URL real después de desplegar*
+** https://detector-resenas-atipicas.streamlit.app/ ** ← *pegar aquí la URL real después de desplegar*
 
 ## Modelo desplegado
 
