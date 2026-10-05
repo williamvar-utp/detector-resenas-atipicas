@@ -105,8 +105,8 @@ if analizar:
               help="Se marca el 5% de reseñas con mayor puntaje (el mismo punto de operación usado en la evaluación).")
     c2.metric("Percentil del puntaje", f"{cal['percentil']}",
               help="Posición del puntaje entre las reseñas del conjunto de validación (100 = el más sospechoso).")
-    c3.metric("Probabilidad estimada de patrón de fabricación",
-              f"{100 * cal['p']:.1f}%", f"IC 95%: {100 * cal['ic_inf']:.1f}% – {100 * cal['ic_sup']:.1f}%", delta_color="off")
+    c3.metric("Probabilidad estimada de patrón de fabricación", f"{100 * cal['p']:.1f}%")
+    c3.caption(f"Intervalo de confianza del 95%: {100 * cal['ic_inf']:.1f}% – {100 * cal['ic_sup']:.1f}%")
     st.caption(
         f"La probabilidad es la **frecuencia observada** de positivos sintéticos entre {cal['n_tramo']:,} reseñas de validación "
         f"con un puntaje en el mismo tramo (prevalencia general: {100 * calib['prevalencia']:.0f}%). El intervalo se obtuvo por "
